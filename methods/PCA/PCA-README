@@ -1,0 +1,43 @@
+Principal Component Analysis (PCA)
+
+Overview
+
+Principal Component Analysis (PCA) is a statistical technique used to reduce a set of correlated variables 
+into a smaller number of uncorrelated components while preserving as much variation in the data as possible.
+
+Purpose
+
+PCA is primarily used for:
+	•	Dimensionality reduction
+	•	Data preprocessing before modeling
+	•	Handling multicollinearity
+	•	Data visualization
+
+Key Concept
+
+PCA creates new variables (principal components) that are weighted combinations of the original variables.
+	•	The first component captures the largest amount of variance
+	•	Each subsequent component captures progressively less
+
+When to Use PCA
+
+Use PCA when:
+	•	You have many correlated variables
+	•	You want to simplify your dataset
+	•	You are building predictive models
+	•	You need to combine multiple measures into a composite index
+
+Important Considerations
+	•	Variables should be correlated
+	•	Data should be standardized if variables are on different scales
+	•	PCA is data-driven and does not model underlying constructs
+
+Interpretation
+
+Principal components represent shared variance across variables, not theoretical constructs. 
+Results should be interpreted as data summaries rather than latent variables.
+
+Example Use Case
+
+In health outcomes research, PCA can be used to combine patient-reported outcomes (e.g., PROMIS), 
+cognitive performance scores, and financial toxicity measures into a single composite index representing overall patient burden.
