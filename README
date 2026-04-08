@@ -1,0 +1,41 @@
+:::writing{variant=“standard” id=“readme1”}
+
+Measurement Methods Library
+
+This repository contains my personal library of measurement theory, psychometric methods, and applied code developed through coursework, teaching, and research in clinical outcomes.
+
+📚 Purpose
+	•	Organize key concepts in measurement (CTT, IRT, factor analysis, validity)
+	•	Store reusable R code for psychometric analyses
+	•	Provide worked examples for teaching and research
+	•	Serve as a reproducible toolkit for PRO and clinical outcomes studies
+
+📁 Structure
+	•	concepts/ → Theory notes (e.g., reliability, validity, PCA vs FA)
+	•	methods/ → Code for specific techniques (PCA, CFA, IRT, etc.)
+	•	workflows/ → End-to-end analyses combining multiple methods
+	•	templates/ → Reusable analysis and reporting templates
+
+🧪 Example Use Cases
+	•	Running reliability analyses (Cronbach’s alpha, omega)
+	•	Conducting exploratory or confirmatory factor analysis
+	•	Evaluating construct validity
+	•	Analyzing PROMIS and NIH Toolbox data
+
+🛠️ Tools Used
+	•	R (tidyverse, lavaan, psych, mirt)
+	•	RStudio
+	•	SAS
+	•	Python
+
+🚧 Status
+
+This is an evolving repository that will grow with new methods, examples, and applications.
+
+📌 Notes
+
+All code is intended for educational and research purposes. Adapt as needed for specific projects.
+
+👤 Author
+
+Carlos Litovich, DrPH MPH
