@@ -1,0 +1,9 @@
+﻿Category,Assumption / Condition,What to Do,How to Test,Required?,Notes for Your Work
+🧠 Core,Variables are correlated,Check relationships among variables,Correlation matrix,✅ MUST,"If PROMIS, Toolbox, COST are unrelated → PCA not appropriate"
+🧠 Core,Sampling adequacy,Ensure variables share common variance,KMO statistic,✅ MUST,Report this in manuscript
+🧠 Core,Correlation ≠ identity matrix,Confirm correlations are not zero,Bartlett’s test,✅ MUST,Want p < 0.05
+📏 Scaling,Variables on same scale,Standardize variables,z-scores (scale()),⚠️ SHOULD,Critical for mixed measures (PROMIS + COST)
+🚨 Data quality,No extreme outliers,Identify influential points,Boxplots / Mahalanobis,⚠️ SHOULD,Outliers can distort components
+📦 Sample size,Adequate N,Ensure stable estimates,Rule of thumb (5–10 per variable),⚠️ SHOULD,Likely a limitation in your CAR-T data
+📈 Structure,Linear relationships,Assume linearity,Scatterplots (optional),👍 NICE,Rarely reported
+📊 Distribution,Normality,Optional check,Histograms / Shapiro,👍 NICE,Not required for PCA
